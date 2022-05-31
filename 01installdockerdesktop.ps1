@@ -3,6 +3,3 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 #Install Docker Desktop
 choco install docker-desktop
-
-#Switch to Windows Containers
-& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon
