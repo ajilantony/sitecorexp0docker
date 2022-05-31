@@ -8,12 +8,12 @@ Param (
     # We do not need to use [SecureString] here since the value will be stored unencrypted in .env,
     # and used only for transient local example environment.
     [string]
-    $SitecoreAdminPassword = "Marlabs@1234",
+    $SitecoreAdminPassword = "P@ssword",
     
     # We do not need to use [SecureString] here since the value will be stored unencrypted in .env,
     # and used only for transient local example environment.
     [string]
-    $SqlSaPassword = "Marlabs@1234"
+    $SqlSaPassword = "P@ssword"
 )
 
 $ErrorActionPreference = "Stop";
