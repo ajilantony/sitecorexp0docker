@@ -1,1 +1,0 @@
-‘c:\Program Files\Docker\Docker\dockercli.exe’ -SwitchWindowsEngine
